@@ -1,0 +1,228 @@
+.logo{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 10px;
+}
+body{
+    background-color: rgb(250, 161, 239);
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Header{
+    display: flex;
+    justify-content: space-around;
+}
+.navigation ul{
+    border: solid 0px black;
+    border-radius: 20px;
+    background-color: rgb(252, 179, 252);
+    height: 30px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+li :hover{
+    color: rgba(0, 0, 0, 0.434);
+}
+.cont{
+    margin-top: 10px;
+}
+.cont:hover{
+    background-color: white;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.home{
+    border: solid 0px white;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px; 
+    background-color: white;
+    margin-top: -5px;
+}
+.con1{
+    margin-left: 100px;
+    margin-top: 50px;
+    border: solid 0px black;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(244, 199, 244);
+    position: relative;
+}
+.con1 button{
+    border-width: 0px;
+    position:absolute;
+    top: 30px;
+    right: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.con1 button:hover{
+    background-color: white;
+    color: black;
+}
+.txt1{
+    width: 90%;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.img1{
+    animation-name: img1;
+    animation-duration: 2s;
+}
+@keyframes img1 {
+    from{
+        height: 0px;
+        width: 0px;
+    }
+    to{
+        height: 150px;
+        width: 150px;
+    }
+}
+.con2{
+    border: solid 0px black;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin-top: -200px;
+    margin-left: 520px;
+}
+.con2 img{
+    border-radius: 10px;
+    position: absolute;
+}
+.con3{
+    border: solid 0px black;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin-top: -400px;
+    margin-left: 67%;
+}
+.con3 img{
+    border-radius: 10px;
+    position: absolute;
+}
+.but{
+    position: absolute;
+    border: solid 0px black;
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 100px;
+    padding: 8px;
+    border-radius: 10px ;
+    bottom: 20px;
+    left: 20px;
+    font-size: large;
+    text-align: center;
+}
+.but:hover{
+    background-color: white;
+    color: black;
+}
+.con4{
+    border: solid 0px black;
+    height: 180px;
+    width: 190px;
+    background-color:rgb(99, 119, 192) ;
+    text-align: center;
+    margin-top: -180px;
+    margin-left: 100px;
+    border-radius: 10px;
+    position: relative;
+}
+.con4 img{
+    margin-top: 65px;
+}
+.cir{
+    border: solid 0px black;
+    height: 30px;
+    width: 30px;
+    font-size: x-large;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 10px;
+    left: 10px;
+}
+.c :hover{
+    background-color: white;
+    color: black;
+}
+.con5{
+    border: solid 0px black;
+    height: 180px;
+    width: 190px;
+    background-color:rgb(244, 203, 228) ;
+    text-align: center;
+    margin-top: -180px;
+    margin-left: 310px;
+    border-radius: 10px;
+}
+.con5 img{
+    margin-top: 30px;
+}
+.bu{
+    border: solid 0px black;
+    height:20px ;
+    width: 80px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: large;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 43px;
+}
+.bu:hover{
+    background-color: white;
+    color: black;
+}
+.content{
+    margin-top: -50px;
+}
+.footer{
+    border: solid 0px black;
+    height: 100px;
+    width: 83%;
+    border-radius: 20px;
+    background-color: rgb(244, 203, 228);
+    margin-top: 15px;
+    margin-left: 100px;
+    position: relative;
+}
+.footer img{
+    margin-left: 20%
+}
+.bu1{
+    border: solid 0px black;
+    height:20px ;
+    width: 100px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: large;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.bu1:hover{
+    background-color: white;
+    color: black;
+}

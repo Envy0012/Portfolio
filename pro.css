@@ -1,0 +1,63 @@
+.logo{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 10px;
+}
+body{
+    background-color: rgb(250, 161, 239);
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Header{
+    display: flex;
+    justify-content: space-around;
+}
+.navigation ul{
+    border: solid 0px black;
+    border-radius: 20px;
+    background-color: rgb(252, 179, 252);
+    height: 30px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+li :hover{
+    color: rgba(0, 0, 0, 0.434);
+}
+.cont{
+    margin-top: 10px;
+}
+.cont:hover{
+    background-color: white;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Projects{
+    border: solid 0px white;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px; 
+    background-color: white;
+    margin-top: -5px;
+}
+.sec1 ul{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+.sec1{
+    margin-left: 100px;
+}
+li img{
+    height: 100px;
+    width: 150px;
+}
+li{
+    text-align: center;
+}

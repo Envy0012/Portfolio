@@ -1,0 +1,87 @@
+.logo{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 10px;
+}
+body{
+    background-color: rgb(250, 161, 239);
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Header{
+    display: flex;
+    justify-content: space-around;
+}
+.navigation ul{
+    border: solid 0px black;
+    border-radius: 20px;
+    background-color: rgb(252, 179, 252);
+    height: 30px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+li :hover{
+    color: rgba(0, 0, 0, 0.434);
+}
+.cont{
+    margin-top: 10px;
+}
+.cont:hover{
+    background-color: white;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.About{
+    border: solid 0px white;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px; 
+    background-color: white;
+    margin-top: -5px;
+}
+.con1{
+    border: solid 0px black;
+    height: 450px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: rgb(190, 101, 235);
+    border-radius: 30px;
+}
+.txt1{
+    width: 90%;
+    color: white;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.log1{
+    margin-top: 0%;
+    margin-left: 40%;
+    animation-name: img1;
+    animation-duration: 3s;
+}
+@keyframes img1 {
+    from{
+        margin-left: 0%;
+        height: 0px;
+        width: 0px;
+    }
+    to{
+        margin-left: 40%;
+        height: 200px;
+        width: 200px;
+    }
+    
+}
+.Head1{
+    color: white;
+    margin-left: 5%;
+    font-size: large;
+}

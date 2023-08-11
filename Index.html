@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="icon" href="./IMAGES/portfolio.png">
+</head>
+<body>
+    <div class="Header">
+        <div title="Om" class="logo"><a href="./Index.html"><b>オム</b></a></div>
+        <div class="navigation">
+            <ul type="none">
+                <li class="home"><a href="./Index.html">Home</a></li>
+                <li class="About"><a href="./Aboutme.html">About Me</a></li>
+                <li class="Skills"><a href="./Skills.html">Skills</a></li>
+                <li class="Projects"><a href="./projects.html">Projects</a></li>
+                <li class="Resume"><a href="./myResume.html">Resume</a></li>
+            </ul>
+        </div>
+        <div class="cont"><a href="https://mail.google.com/mail/u/2/#inbox">Contact</a></div>
+    </div>
+    <div class="content">
+        <div class="con1">
+            <div ><img src="./IMAGES/img1.png" height="150px" width="150px" class="img1" alt=""></div>
+            <div class="txt1">I'm <b>Om Prakash</b>, a Fullstack developer, Interesed in coding and also developing webpages.</div>
+            <button onclick="Changeimg()">Toggle&UpperRightArrow;</button>
+        </div>
+        <div class="con2"><img src="./IMAGES/img2.png.jpg" height="400px" width="300px" alt=""></div>
+        <div class="con3">
+            <div><img src="./IMAGES/img3.png" width="300px" height="400px" alt=""></div>
+            <div class="click"><a class="but" href="./projects.html">Projects&UpperRightArrow;</a></div>
+        </div>
+        <div class="con4">
+            <img src="./IMAGES/linkedin.png" height="50px" width="50px" alt="">
+            <div class="c"><a class="cir" href="https://in.linkedin.com/in/om-prakash-dasari-53313a256">&UpperRightArrow;</a></div>
+        </div>
+        <div class="con5">
+            <img src="./IMAGES/skills.png" height="50px" width="50px" alt="">
+            <div><a  href="./Skills.html"><div class="bu">Skills &UpperRightArrow;</div></a></div>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="./IMAGES/about.png" height="100px" width="300px" alt="">
+        <div><a href="./Aboutme.html"><div class="bu1">About Me &UpperRightArrow; </div></a></div>
+    </div>
+
+    <script>
+        let x = document.getElementsByClassName("img1");
+         let img11 = true
+        function Changeimg(){
+            if (img11)
+            {
+                x[0].src = "./IMAGES/img4.png";
+                img11 = false
+            }
+            else
+            {
+                x[0].src = "./IMAGES/img1.png";
+                img11=true
+            }    
+        }
+    </script>
+</body>
+</html>
